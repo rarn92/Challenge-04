@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Quiz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Develop/style.css"/>
+  </head>
+
+  <body>
+    <div class="topLink" id="leaderboard"><a href="./Develop/leaderboard.html">View Leaderboard</a></div>
+
+    <div class="gameInfo" id="intro">
+      <div>
+        <h1>JavaScript Challenge</h1>
+        <p>Try to answer the following questions.<br>
+          Wrong answers will reduce your time.<br>
+          Good luck!</p>
+      </div>
+
+      <button class="button" id="startButton">START</button>
+      <br>
+      <br>
+      <br>
+      <div class="timer">Time: <h1 id="timeRemaining"></h1></div>
+      <div>Score: <h1 id="score"></h1></div>
+      <br>
+      <div id="answerResponse"></div>
+      <br>
+      <br>
+      <br>
+      <div id="questionText"></div>
+      <br>
+      <br>
+      <br>
+      <div id="allAnswers">
+        <button class="answerButton" onclick="selectAnswer('A')" id="answerA"></button>
+        <button class="answerButton" onclick="selectAnswer('B')" id="answerB"></button>
+        <button class="answerButton" onclick="selectAnswer('C')" id="answerC"></button>
+        <button class="answerButton" onclick="selectAnswer('D')" id="answerD"></button>
+      </div>
+    </div>
+
+    <script src="./Develop/gameScript.js"></script>
+  </body>
+</html>

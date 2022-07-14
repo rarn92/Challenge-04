@@ -1,0 +1,76 @@
+/* ALL */
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(42, 134, 41);
+    background-color: black;
+    text-align: center;
+}
+
+body a {
+    color: rgb(42, 134, 41);
+}
+
+/* game.html */
+
+.topLink {
+    text-align: start;
+}
+
+.intro {
+    display:block;
+}
+
+.button {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(42, 134, 41);
+    background-color: black;
+    border-color: rgb(42, 134, 41);
+    height: 40px;
+    width: 200px;
+}
+
+.answerButton {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(42, 134, 41);
+    background-color: black;
+    border-color: rgb(42, 134, 41);
+    height: 40px;
+    width: 200px;
+    display:none;
+}
+
+/* gameOver.html */
+
+.initials {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(42, 134, 41);
+    background-color: black;
+    border-color: rgb(42, 134, 41);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    width: 100px;
+    font-size: 100px;
+}
+
+#submit {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(42, 134, 41);
+    background-color: black;
+    border-color: rgb(42, 134, 41);
+}
+
+/* highscores.html */
+
+#playAgain {
+    text-align: start;
+}
+
+.leaderboardText {
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-size: 50px;
+}
